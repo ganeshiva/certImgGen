@@ -1,0 +1,40 @@
+templateImageFile: "template/CertificateTemplate.png"
+outputDirectory : "output"
+CertificateParameters: 
+    inputExcelFile: "input/CertificateInputList.xls"
+    excelField:
+        - name : "Id"
+          txtPrefix: "Id: "
+          txtSuffix: ""
+          xPosition: 250
+          yPosition: 150
+          font: "font/AbhayaLibre-ExtraBold.ttf"
+          fontSize: 100
+          fontColor: "black"
+        - name : "Name"
+          txtPrefix: ""
+          txtSuffix: ""
+          xPosition: 2850
+          yPosition: 1950
+          font: "font/AbhayaLibre-ExtraBold.ttf"
+          fontSize: 150
+          fontColor: "green"
+        - name : "Organisation"
+          txtPrefix: ""
+          txtSuffix: ""
+          xPosition: 2200
+          yPosition: 2250
+          font: "font/AbhayaLibre-ExtraBold.ttf"
+          fontSize: 100
+          fontColor: "purple"
+        - name : "Grade"
+          txtPrefix: ""
+          txtSuffix: ""
+          xPosition: 2200
+          yPosition: 2550
+          font: "font/AbhayaLibre-ExtraBold.ttf"
+          fontSize: 100
+          fontColor: "red"
+
+
+
